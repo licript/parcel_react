@@ -1,12 +1,13 @@
 import * as React from 'react'
+import Hello from './compoents/hello'
 
 class App extends React.Component {
-  componentDidMount () {
-    console.log('mounted')
-  }
+
   render () {
     return (
-      <div> hello  this is a parcel react app</div>
+      <div>
+        <Hello/>
+      </div>
     )
   }
 }
